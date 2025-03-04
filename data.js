@@ -802,15 +802,15 @@ Jumlah murid : 750 orang<br>
 },
 {
 name: "SMA GABUNGAN JAYAPURA",
-lat: -2.534699022368613, 
-lon: 140.72568491077462, 
+lat: -2.5341147938723294, 
+lon: 140.7249310780534, 
 type: "SMA", 
 siswa: "232 orang",
 alamat: "Jln. Samudera No. 24 Jayapura Utara.",
 gambar: `<img src='img/smagabungan.jpeg' width='500vw' height='400vh'>`,
 description: `
 <br>Jln. Samudera No. 24 Jayapura Utara.<br>
-Titik Lokasi : -2.534699022368613, 140.72568491077462<br>
+Titik Lokasi : -2.5341147938723294, 140.7249310780534<br>
 Jumlah murid : 232 orang<br>
 <a href='img/smagabungan.jpeg' target='_blank'><img src='img/smagabungan.jpeg' width='150'></a><br>`
 },

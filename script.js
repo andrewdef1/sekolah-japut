@@ -10,29 +10,72 @@ L.tileLayer('https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
 
 // Ikon sekolah berdasarkan jenjang
 var schoolIcons = {
-    "PAUD": L.icon({ iconUrl: 'red.png', iconSize: [23, 30] }),
-    "TK": L.icon({ iconUrl: 'red.png', iconSize: [23, 30] }),
-    "SD": L.icon({ iconUrl: 'yellow.png', iconSize: [23, 30] }),
-    "SMP": L.icon({ iconUrl: 'green.png', iconSize: [23, 30] }),
-    "SMA": L.icon({ iconUrl: 'purple.png', iconSize: [23, 30] }),
-   //  "PT": L.icon({ iconUrl: 'blue.png', iconSize: [23, 30] })
+    "PAUD": L.icon({ iconUrl: 'red.png', iconSize: [20, 30] }),
+    "TK": L.icon({ iconUrl: 'red.png', iconSize: [20, 30] }),
+    "SD": L.icon({ iconUrl: 'yellow.png', iconSize: [20, 30] }),
+    "SMP": L.icon({ iconUrl: 'green.png', iconSize: [20, 30] }),
+    "SMA": L.icon({ iconUrl: 'purple.png', iconSize: [20, 30] })
 };
 
 // Variabel hitung jumlah sekolah
 var countSD = 0, countSMP = 0, countSMA = 0, countPAUD = 0, countTK = 0;
 
+// Variabel untuk menyimpan garis sementara
+var popupLine;
+
+// Fungsi untuk mendapatkan koordinat popup di sebelah kiri dengan posisi vertikal yang dinamis
+function getPopupPosition(markerLatLng) {
+    var bounds = map.getBounds(); // Dapatkan batas peta saat ini
+    var mapHeight = bounds.getNorth() - bounds.getSouth(); // Hitung tinggi peta
+    var verticalOffset = (Math.random() - 0.5) * mapHeight * 0.2; // Variasi vertikal (10% dari tinggi peta)
+
+    var leftLatLng = [
+        markerLatLng[0] + verticalOffset, // Posisi vertikal dinamis
+        bounds.getWest() + (bounds.getEast() - bounds.getWest()) * 0.15 // 15% dari lebar peta
+    ];
+    return leftLatLng;
+}
+
 // Tambahkan sekolah ke peta
 schools.forEach(school => {
-    L.marker([school.lat, school.lon], { icon: schoolIcons[school.type] })
-        .addTo(map)
-        .bindPopup(`
-            <b>${school.name}</b><br>
-            Jenjang: ${school.type}<br>
-            <i>${school.description}</i><br><hr>
-            <button onclick="printSchool('${school.name}','${school.type}','${school.alamat}','${school.lat}','${school.lon}', '${school.siswa}',\`${school.gambar}\`)">
-                🖨 Print
-            </button>
-        `);
+    var marker = L.marker([school.lat, school.lon], { icon: schoolIcons[school.type] }).addTo(map);
+
+    // Tambahkan event listener untuk membuat garis dari marker ke popup
+    marker.on('click', function() {
+        // Hapus garis sebelumnya jika ada
+        if (popupLine) {
+            map.removeLayer(popupLine);
+        }
+
+        // Tentukan posisi popup di sebelah kiri dengan posisi vertikal yang dinamis
+        var popupLatLng = getPopupPosition([school.lat, school.lon]);
+
+        // Tambahkan garis dari marker ke popup
+        popupLine = L.polyline([[school.lat, school.lon], popupLatLng], { 
+            color: 'black', 
+            weight: 3 // Garis lebih tebal
+        }).addTo(map);
+
+        // Tampilkan popup di posisi yang baru
+        var popup = L.popup({ autoPan: false }) // Matikan auto-pan agar peta tidak bergeser
+            .setLatLng(popupLatLng)
+            .setContent(`
+                <b>${school.name}</b><br>
+                Jenjang: ${school.type}<br>
+                <i>${school.description}</i><br><hr>
+                <button onclick="printSchool('${school.name}','${school.type}','${school.alamat}','${school.lat}','${school.lon}', '${school.siswa}',\`${school.gambar}\`)">
+                    🖨 Print
+                </button>
+            `)
+            .openOn(map);
+    });
+
+    // Hapus garis saat popup ditutup
+    map.on('popupclose', function() {
+        if (popupLine) {
+            map.removeLayer(popupLine);
+        }
+    });
 
     // Hitung jumlah sekolah per kategori
     if (school.type === "PAUD") countPAUD++;
@@ -40,7 +83,6 @@ schools.forEach(school => {
     if (school.type === "SD") countSD++;
     if (school.type === "SMP") countSMP++;
     if (school.type === "SMA") countSMA++;
-   //  if (school.type === "PT") countPT++;
 });
 
 // Tampilkan jumlah sekolah di HTML
@@ -49,7 +91,7 @@ document.getElementById("count-tk").textContent = countTK;
 document.getElementById("count-sd").textContent = countSD;
 document.getElementById("count-smp").textContent = countSMP;
 document.getElementById("count-sma").textContent = countSMA;
-// document.getElementById("count-pt").textContent = countPT;
+
 
 // Fungsi Print Data Sekolah
 function printSchool(name, type, alamat, lat, lon, siswa, gambar) {

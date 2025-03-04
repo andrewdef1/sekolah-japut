@@ -7,10 +7,45 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <style>
         #map { height: 720px; }
+        table {
+            border-collapse: collapse;
+            margin-right: auto; /* Menggeser tabel ke kanan */
+            border: 2px solid #333;
+            margin-bottom: 20px;
+            margin-top: 0px;
+        }
+        td {
+            border: 2px solid #333;
+            padding: 10px;
+            text-align: left;
+        }
+        img {
+            vertical-align: middle;
+            margin-right: 0px;
+            padding-right: 0px;
+        }
     </style>
 </head>
 <body>
     <h2>Peta Sebaran Sekolah di Wilayah Distrik Jayapura Utara</h2>
+    <table>
+        <tr>
+            <td><img src="red.png" width="20" height="30"></td>
+            <td>PAUD/TK</td>
+        </tr>
+        <tr>
+            <td><img src="yellow.png" width="20" height="30"></td>
+            <td>SD</td>
+        </tr>       
+        <tr>
+            <td><img src="green.png" width="20" height="30"></td>
+            <td>SMP</td>
+        </tr>         
+        <tr>
+            <td><img src="purple.png" width="20" height="30"></td>
+            <td>SMA</td>
+        </tr>
+    </table>
     <div id="map"></div>
     <h3>Index Total Sekolah:</h3>
     <ul>

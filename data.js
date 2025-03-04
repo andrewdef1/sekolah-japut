@@ -24,7 +24,7 @@ var schools = [
        description: `
        <br>Jln. Diponegoro No. 12 Jayapura<br>
        Titik Lokasi : -2.544070366266895, 140.69605458173442<br>
-       Jumlah murid	: 895 oranga<br>
+       Jumlah murid	: 895 orang<br>
 <a href='img/tksdsmp kartika.jpeg' target='_blank'><img src='img/tksdsmp kartika.jpeg' width='150'></a><br>`
    },
    { 

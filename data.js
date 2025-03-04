@@ -212,5 +212,47 @@ Titik Lokasi : -2.53389, 140.70438<br>
 Jumlah murid : 34 orang<br>
 <a href='img/paudstarkids.jpeg' target='_blank'><img src='img/paudstarkids.jpeg' width='150'></a><br>`
 },
+{
+name: "SD NEGERI INPRES BHAYANGKARA JAYAPURA",
+lat: -2.53277, 
+lon: 140.71336, 
+type: "SD", 
+siswa: "58 orang",
+alamat: "Jln. Bambu Bhayangkara I jayapura Utara.",
+gambar: `<img src='img/sdinpresbhayangkara.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Bambu Bhayangkara I jayapura Utara.<br>
+Titik Lokasi : -2.53277, 140.71336<br>
+Jumlah murid : 58 orang<br>
+<a href='img/sdinpresbhayangkara.jpeg' target='_blank'><img src='img/sdinpresbhayangkara.jpeg' width='150'></a><br>`
+},
+{
+name: "TK. HIKMAH YAPIS JAYAPURA",
+lat: -2.53013, 
+lon: 140.71635, 
+type: "TK", 
+siswa: "248 orang",
+alamat: "Jln. Samratulangi No. 11 Jayapura Utara",
+gambar: `<img src='img/hikmahyapistk.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Samratulangi No. 11 Jayapura Utara<br>
+Titik Lokasi : -2.53013, 140.71635<br>
+Jumlah murid : 248 orang<br>
+<a href='img/hikmahyapistk.jpeg' target='_blank'><img src='img/hikmahyapistk.jpeg' width='150'></a><br>`
+},
+{
+name: "SD HIKMAH 2 YAPIS JAYAPURA",
+lat: -2.53024, 
+lon: 140.71742, 
+type: "SD", 
+siswa: "318 orang",
+alamat: "Jln. Dr. Samratulangi No 3 Jayapura Utara.",
+gambar: `<img src='img/sdhikmah2yapis.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Dr. SamratulangiNo  3 Jayapura Utara.<br>
+Titik Lokasi : -2.53024, 140.71742<br>
+Jumlah murid : 318 orang<br>
+<a href='img/sdhikmah2yapis.jpeg' target='_blank'><img src='img/sdhikmah2yapis.jpeg' width='150'></a><br>`
+},
 
 ];

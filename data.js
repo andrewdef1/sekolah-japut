@@ -170,5 +170,19 @@ Titik Lokasi : -2.53374837745802, 140.7046524221613<br>
 Jumlah murid : 444 orang<br>
 <a href='img/sdinpresapo12.jpeg' target='_blank'><img src='img/sdinpresapo12.jpeg' width='150'></a><br>`
 },
+{
+name: "SD INPRES APO TUGU",
+lat: -2.53633, 
+lon: 140.70209, 
+type: "SD", 
+siswa: "215 orang",
+alamat: "Jln. Puncak Tugu 72 APO Distrik Jayapura Utara",
+gambar: `<img src='img/sdapotugu.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Puncak Tugu 72 APO Distrik Jayapura Utara<br>
+Titik Lokasi : -2.53633, 140.70209<br>
+Jumlah murid : 215 orang<br>
+<a href='img/sdapotugu.jpeg' target='_blank'><img src='img/sdapotugu.jpeg' width='150'></a><br>`
+},
 
 ];

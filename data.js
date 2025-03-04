@@ -282,5 +282,33 @@ Titik Lokasi : -2.52665, 140.71941<br>
 Jumlah murid : 105 orang<br>
 <a href='img/tktrikotadokv.jpeg' target='_blank'><img src='img/tktrikotadokv.jpeg' width='150'></a><br>`
 },
+{
+name: "TK KEMALA BHAYANGKARI. II",
+lat: -2.51542, 
+lon: 140.70677, 
+type: "TK", 
+siswa: "65 orang",
+alamat: "Jln. Prof. Moh. Yamin II No. 6 Angkasa Jayapura Utara.",
+gambar: `<img src='img/tkkemalabh2.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Prof. Moh. Yamin II No. 6 Angkasa Jayapura Utara.<br>
+Titik Lokasi : -2.51542, 140.70677<br>
+Jumlah murid : 65 orang<br>
+<a href='img/tkkemalabh2.jpeg' target='_blank'><img src='img/tkkemalabh2.jpeg' width='150'></a><br>`
+},
+{
+name: "PAUD QOLBUN SALIM ANGKASA",
+lat: -2.51555, 
+lon: 140.70731, 
+type: "PAUD", 
+siswa: "- orang",
+alamat: "Jln. Prof. Moh. Yamin II No. 4 Angkasa Jayapura Utara.",
+gambar: `<img src='img/paudqolbun.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Prof. Moh. Yamin II No. 4 Angkasa Jayapura Utara.<br>
+Titik Lokasi : -2.51555, 140.70731<br>
+Jumlah murid : - orang<br>
+<a href='img/paudqolbun.jpeg' target='_blank'><img src='img/paudqolbun.jpeg' width='150'></a><br>`
+},
 
 ];

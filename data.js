@@ -422,5 +422,33 @@ Titik Lokasi : -2.52164, 140.73317<br>
 Jumlah murid : 24 orang<br>
 <a href='img/paudkasihmama.jpeg' target='_blank'><img src='img/paudkasihmama.jpeg' width='150'></a><br>`
 },
+{
+name: "PAUD YEGAR SAHADUTA",
+lat: -2.51959, 
+lon: 140.73265, 
+type: "PAUD", 
+siswa: "34 orang",
+alamat: "Jl. Tanjung Ria No. 49 Dok IX Japut",
+gambar: `<img src='img/paudyegar.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jl. Tanjung Ria No. 49 Dok IX Japut<br>
+Titik Lokasi : -2.51959, 140.73265<br>
+Jumlah murid : 34 orang<br>
+<a href='img/paudyegar.jpeg' target='_blank'><img src='img/paudyegar.jpeg' width='150'></a><br>`
+},
+{
+name: "TK BUMI BHAKTI BPN",
+lat: -2.51950, 
+lon: 140.73251, 
+type: "TK", 
+siswa: "62 orang",
+alamat: "Jln. Tanjung Ria Jayapura Utara.",
+gambar: `<img src='img/tkbumibhakti.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Tanjung Ria Jayapura Utara.<br>
+Titik Lokasi : -2.51950, 140.73251<br>
+Jumlah murid : 62 orang<br>
+<a href='img/tkbumibhakti.jpeg' target='_blank'><img src='img/tkbumibhakti.jpeg' width='150'></a><br>`
+},
 
 ];

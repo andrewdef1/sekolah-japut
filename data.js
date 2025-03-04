@@ -394,5 +394,33 @@ Titik Lokasi : -2.52185, 140.73631<br>
 Jumlah murid : 725 orang<br>
 <a href='img/sdinprestanjungria.jpeg' target='_blank'><img src='img/sdinprestanjungria.jpeg' width='150'></a><br>`
 },
+{
+name: "PAUD YERUSALEM",
+lat: -2.52357, 
+lon: 140.73314, 
+type: "PAUD", 
+siswa: "20 orang",
+alamat: "Jl. Tanjung Ria RT 04 / RW IV Dok IX",
+gambar: `<img src='img/paudyerusalem.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jl. Tanjung Ria RT 04 / RW IV Dok IX<br>
+Titik Lokasi : -2.52357, 140.73314<br>
+Jumlah murid : 20 orang<br>
+<a href='img/paudyerusalem.jpeg' target='_blank'><img src='img/paudyerusalem.jpeg' width='150'></a><br>`
+},
+{
+name: "PAUD KASIH MAMA",
+lat: -2.52164, 
+lon: 140.73317, 
+type: "PAUD", 
+siswa: "24 orang",
+alamat: "Jl. Tanjung Ria Base’G",
+gambar: `<img src='img/paudkasihmama.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jl. Tanjung Ria Base’G<br>
+Titik Lokasi : -2.52164, 140.73317<br>
+Jumlah murid : 24 orang<br>
+<a href='img/paudkasihmama.jpeg' target='_blank'><img src='img/paudkasihmama.jpeg' width='150'></a><br>`
+},
 
 ];

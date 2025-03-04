@@ -310,5 +310,33 @@ Titik Lokasi : -2.51555, 140.70731<br>
 Jumlah murid : - orang<br>
 <a href='img/paudqolbun.jpeg' target='_blank'><img src='img/paudqolbun.jpeg' width='150'></a><br>`
 },
+{
+name: "SD NEGERI INPRES ANGKASAPURA JAYAPURA",
+lat: -2.51090, 
+lon: 140.70796, 
+type: "SD", 
+siswa: "284 orang",
+alamat: "Jln. Angkasa Indah No. 5 Jayapura Utara",
+gambar: `<img src='img/sdinpresangkasa.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Angkasa Indah No. 5 Jayapura Utara<br>
+Titik Lokasi : -2.51090, 140.70796<br>
+Jumlah murid : 284 orang<br>
+<a href='img/sdinpresangkasa.jpeg' target='_blank'><img src='img/sdinpresangkasa.jpeg' width='150'></a><br>`
+},
+{
+name: "SD NEGERI ANGKASA JAYAPURA",
+lat: -2.507852940166724, 
+lon: 140.7108711054864, 
+type: "SD", 
+siswa: "51 orang",
+alamat: "Jln. raya Base’G Angkasa Jayapura utara.",
+gambar: `<img src='img/sdnegeriangkasa.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. raya Base’G Angkasa Jayapura utara.<br>
+Titik Lokasi : -2.507852940166724, 140.7108711054864<br>
+Jumlah murid : 51 orang<br>
+<a href='img/sdnegeriangkasa.jpeg' target='_blank'><img src='img/sdnegeriangkasa.jpeg' width='150'></a><br>`
+},
 
 ];

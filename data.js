@@ -254,5 +254,33 @@ Titik Lokasi : -2.53024, 140.71742<br>
 Jumlah murid : 318 orang<br>
 <a href='img/sdhikmah2yapis.jpeg' target='_blank'><img src='img/sdhikmah2yapis.jpeg' width='150'></a><br>`
 },
+{
+name: "SD YPK PAULUS DOK V JAYAPURA",
+lat: -2.52830, 
+lon: 140.71956, 
+type: "SD", 
+siswa: "464 orang",
+alamat: "Jln. Trikora No. 28 Dok V atas Jayapra Utara.",
+gambar: `<img src='img/sdypkpaulusdokv.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Trikora No. 28 Dok V atas Jayapra Utara.<br>
+Titik Lokasi : -2.52830, 140.71956<br>
+Jumlah murid : 464 orang<br>
+<a href='img/sdypkpaulusdokv.jpeg' target='_blank'><img src='img/sdypkpaulusdokv.jpeg' width='150'></a><br>`
+},
+{
+name: "TK. TRIKORA I JAYAPURA",
+lat: -2.52665, 
+lon: 140.71941, 
+type: "TK", 
+siswa: "105 orang",
+alamat: "Jln. Trikora No. 32 Dok V Atas Jayapura utara.",
+gambar: `<img src='img/tktrikotadokv.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Trikora No. 32 Dok V Atas Jayapura utara.<br>
+Titik Lokasi : -2.52665, 140.71941<br>
+Jumlah murid : 105 orang<br>
+<a href='img/tktrikotadokv.jpeg' target='_blank'><img src='img/tktrikotadokv.jpeg' width='150'></a><br>`
+},
 
 ];

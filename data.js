@@ -121,12 +121,12 @@ lon: 140.7005299498672,
 type: "SMP", 
 siswa: "132 orang",
 alamat: "Jln. Percetakan Negara Jayapura.",
-gambar: `<img src='img/sd nurul hudayapis1.jpeg' width='500vw' height='400vh'>`,
+gambar: `<img src='img/smpnurulhuda.jpeg' width='500vw' height='400vh'>`,
 description: `
 <br>Jln. Percetakan Negara Jayapura.<br>
 Titik Lokasi : -2.543207744211073, 140.7005299498672<br>
 Jumlah murid : 132 orang<br>
-<a href='img/sd nurul hudayapis1.jpeg' target='_blank'><img src='img/sd nurul hudayapis1.jpeg' width='150'></a><br>`
+<a href='img/smpnurulhuda.jpeg' target='_blank'><img src='img/smpnurulhuda.jpeg' width='150'></a><br>`
 },
 {
 name: "TK TRIKORA 2 KOTA JAYAPURA",
@@ -239,6 +239,20 @@ description: `
 Titik Lokasi : -2.53013, 140.71635<br>
 Jumlah murid : 248 orang<br>
 <a href='img/hikmahyapistk.jpeg' target='_blank'><img src='img/hikmahyapistk.jpeg' width='150'></a><br>`
+},
+{
+name: "SMP HIKMAH YAPIS JAYAPURA",
+lat: -2.5291134665298793, 
+lon: 140.71740488008768, 
+type: "SMP", 
+siswa: "265 orang",
+alamat: "Jln. Samratulangi No. 3 Jayapura.",
+gambar: `<img src='img/smphikmahyapis.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Samratulangi No. 3 Jayapura.<br>
+Titik Lokasi : -2.5291134665298793, 140.71740488008768<br>
+Jumlah murid : 265 orang<br>
+<a href='img/smphikmahyapis.jpeg' target='_blank'><img src='img/smphikmahyapis.jpeg' width='150'></a><br>`
 },
 {
 name: "SD HIKMAH 2 YAPIS JAYAPURA",
@@ -575,6 +589,104 @@ description: `
 Titik Lokasi : -2.53301, 140.72365<br>
 Jumlah murid : 574 orang<br>
 <a href='img/sdkristusrajadok5.jpeg' target='_blank'><img src='img/sdkristusrajadok5.jpeg' width='150'></a><br>`
+},
+{
+name: "SD Wahana Cita",
+lat: -2.53891, 
+lon: 140.71080, 
+type: "SD", 
+siswa: "- orang",
+alamat: "Jln. Pasifik Permai Dok II Distrik Jayapura Utara",
+gambar: `<img src='img/sdwahanacita.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Pasifik Permai Dok II Distrik Jayapura Utara<br>
+Titik Lokasi : -2.53891, 140.71080<br>
+Jumlah murid : - orang<br>
+<a href='img/sdwahanacita.jpeg' target='_blank'><img src='img/sdwahanacita.jpeg' width='150'></a><br>`
+},
+{
+name: "SD YPK I SENASABA",
+lat: -2.54435, 
+lon: 140.69476, 
+type: "SD", 
+siswa: "305 orang",
+alamat: "Jln. Diponegoro No. 37 Jayapura",
+gambar: `<img src='img/sdsenasaba1.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Diponegoro No. 37 Jayapura<br>
+Titik Lokasi : -2.54435, 140.69476<br>
+Jumlah murid : 305 orang<br>
+<a href='img/sdsenasaba1.jpeg' target='_blank'><img src='img/sdsenasaba1.jpeg' width='150'></a><br>`
+},
+{
+name: "SD YPK II SENASABA",
+lat: -2.5446128296526753, 
+lon: 140.694801930347, 
+type: "SD", 
+siswa: "235 orang",
+alamat: "Jln. Diponegorono. 37 Aryoko Jayapura",
+gambar: `<img src='img/sdsenasaba1.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Diponegorono. 37 Aryoko Jayapura<br>
+Titik Lokasi : -2.5446128296526753, 140.694801930347<br>
+Jumlah murid : 235 orang<br>
+<a href='img/sdsenasaba1.jpeg' target='_blank'><img src='img/sdsenasaba1.jpeg' width='150'></a><br>`
+},
+{
+name: "Mts. BAITURRAHIM",
+lat: -2.54479, 
+lon: 140.69969, 
+type: "SMP", 
+siswa: "94 orang",
+alamat: "Jln. Ahmad Yani Jayapura Utara.",
+gambar: `<img src='img/mtsbait.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Ahmad Yani Jayapura Utara.<br>
+Titik Lokasi : -2.54479, 140.69969<br>
+Jumlah murid : 94 orang<br>
+<a href='img/mtsbait.jpeg' target='_blank'><img src='img/mtsbait.jpeg' width='150'></a><br>`
+},
+{
+name: "MA BAITURAHHIM JAYAPURA",
+lat: -2.544061682602551, 
+lon: 140.69741240668804, 
+type: "SMA", 
+siswa: "- orang",
+alamat: "Jln. Ahmad Yani No. 70 Jayapura",
+gambar: `<img src='img/mtsbait.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Ahmad Yani No. 70 Jayapura<br>
+Titik Lokasi : -2.544061682602551, 140.69741240668804<br>
+Jumlah murid : - orang<br>
+<a href='img/mtsbait.jpeg' target='_blank'><img src='img/mtsbait.jpeg' width='150'></a><br>`
+},
+{
+name: "SMP NEGERI 1 JAYAPURA",
+lat: -2.532953737642809, 
+lon: 140.72266170014765, 
+type: "SMP", 
+siswa: "1.158 orang",
+alamat: "Jln. Nusa Tenggara Dok V Jayapura Utara.",
+gambar: `<img src='img/smpn1jyp.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Nusa Tenggara Dok V Jayapura Utara.<br>
+Titik Lokasi : -2.532953737642809, 140.72266170014765<br>
+Jumlah murid : 1.158 orang<br>
+<a href='img/smpn1jyp.jpeg' target='_blank'><img src='img/smpn1jyp.jpeg' width='150'></a><br>`
+},
+{
+name: "SMA MANDALA TRIKORA JAYAPURA",
+lat: -2.5441696234724462, 
+lon: 140.6952801113218, 
+type: "SMA", 
+siswa: "515 orang",
+alamat: "Jln. Diponegoro No. 14 Jayapura.",
+gambar: `<img src='img/smamandala.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Diponegoro No. 14 Jayapura.<br>
+Titik Lokasi : -2.5441696234724462, 140.6952801113218<br>
+Jumlah murid : 515 orang<br>
+<a href='img/smamandala.jpeg' target='_blank'><img src='img/smamandala.jpeg' width='150'></a><br>`
 },
 
 ];

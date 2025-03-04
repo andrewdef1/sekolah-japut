@@ -47,6 +47,9 @@
                 lat: -2.53023, 
                 lon: 140.71751, 
                 type: "SD", 
+                siswa:"622 orang",
+                alamat:"Jln. Dr. Samratulangi Dok V Jayapura Utara",
+                gambar:`<img src='img/sd hikmah yapis 1.jpeg' width='500vw' height='400vh'>`,
                 description: `Jln. Dr. Samratulangi Dok V Jayapura Utara.<br>
                 <a href='img/sd hikmah yapis 1.jpeg' target='_blank'><img src='img/sd hikmah yapis 1.jpeg' width='150'></a><br>
 - Kelapa sekolah    :MUCHADIYAH, S.Pd<br>
@@ -67,7 +70,7 @@
         ];
 
         var countSD = 0, countPAUD = 0, countSMP = 0, countSMA = 0, countPT = 0;
-
+        // <button onclick="printSchool('${school.name}','${school.siswa}','${school.lat}','${school.lon}', '${school.type}', \`${school.description}\`)">
         schools.forEach(school => {
     L.marker([school.lat, school.lon], { icon: schoolIcons[school.type] })
         .addTo(map)
@@ -75,7 +78,7 @@
             <b>${school.name}</b><br>
             Jenjang: ${school.type}<br>
             <i>${school.description}</i><br><hr>
-            <button onclick="printSchool('${school.name}', '${school.type}', \`${school.description}\`)">
+            <button onclick="printSchool('${school.name}','${school.type}','${school.alamat}','${school.lat}','${school.lon}', '${school.siswa}',\`${school.gambar}\`)">
                 🖨 Print
             </button>
         `);
@@ -88,7 +91,7 @@
         document.getElementById("count-sma").textContent = countSMA;
         document.getElementById("count-pt").textContent = countPT;
 
-        function printSchool(name, type, description) {
+        function printSchool(name, type, alamat, lat, lon, siswa, gambar) {
     let printWindow = window.open('', '', 'width=600,height=400');
     printWindow.document.write(`
         <html>
@@ -101,10 +104,32 @@
             </style>
         </head>
         <body>
-            <div class="container">
+           <div class="container">
                 <h2>${name}</h2>
-                <p><strong>Jenjang:</strong> ${type}</p>
-                <p>${description}</p>
+                <table border="1" cellspacing="0" cellpadding="8" style="width: 100%; border-collapse: collapse;">
+                    <tr>
+                        <th style="text-align: left; width: 30%;">Jenjang</th>
+                        <td>${type}</td>
+                    </tr>
+                    <tr>
+                        <th style="text-align: left;">Alamat</th>
+                        <td>${alamat}</td>
+                    </tr>
+                    <tr>
+                        <th style="text-align: left;">Titik Lokasi</th>
+                        <td>${lat}, ${lon}</td>
+                    </tr>
+                    <tr>
+                        <th style="text-align: left;">Jumlah Siswa</th>
+                        <td>${siswa}</td>
+                    </tr>
+                    <tr>
+                        <th style="text-align: left;">Gambar</th>
+                        <td>
+                               ${gambar}
+                        </td>
+                    </tr>
+                </table>
             </div>
             <script>
                 window.onload = function() {

@@ -338,5 +338,61 @@ Titik Lokasi : -2.507852940166724, 140.7108711054864<br>
 Jumlah murid : 51 orang<br>
 <a href='img/sdnegeriangkasa.jpeg' target='_blank'><img src='img/sdnegeriangkasa.jpeg' width='150'></a><br>`
 },
+{
+name: "SD NEGERI INPRES PASIR DUA JAYAPURA",
+lat: -2.50649, 
+lon: 140.72916, 
+type: "SD", 
+siswa: "194 orang",
+alamat: "Jln. Pasifik Indah II No. 2 Jayapura utara",
+gambar: `<img src='img/sdinprespasir2.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Pasifik Indah II No. 2 Jayapura utara<br>
+Titik Lokasi : -2.50649, 140.72916<br>
+Jumlah murid : 194 orang<br>
+<a href='img/sdinprespasir2.jpeg' target='_blank'><img src='img/sdinprespasir2.jpeg' width='150'></a><br>`
+},
+{
+name: "TK YAYASAN PENDIDIKAN PUTERA",
+lat: -2.51226, 
+lon: 140.73215, 
+type: "TK", 
+siswa: "45 orang",
+alamat: "Jln. Pasifik Indah II Pasir II Jayapura Utara.",
+gambar: `<img src='img/tkputrapasir2.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Pasifik Indah II Pasir II Jayapura Utara.<br>
+Titik Lokasi : -2.51226, 140.73215<br>
+Jumlah murid : 45 orang<br>
+<a href='img/tkputrapasir2.jpeg' target='_blank'><img src='img/tkputrapasir2.jpeg' width='150'></a><br>`
+},
+{
+name: "TK KEMALA BHAYANGKARI BASE G JAYAPURA",
+lat: -2.51853, 
+lon: 140.73627, 
+type: "TK", 
+siswa: "56 orang",
+alamat: "Jln. Tanjung Ria Base,G Jayapura Utara.",
+gambar: `<img src='img/tkkemalabaseg.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Tanjung Ria Base,G Jayapura Utara.<br>
+Titik Lokasi : -2.51853, 140.73627<br>
+Jumlah murid : 56 orang<br>
+<a href='img/tkkemalabaseg.jpeg' target='_blank'><img src='img/tkkemalabaseg.jpeg' width='150'></a><br>`
+},
+{
+name: "SD NEGERI INPRES TANJUNG RIA",
+lat: -2.52185, 
+lon: 140.73631, 
+type: "SD", 
+siswa: "725 orang",
+alamat: "Jln. Kayu Batu No. Jalan Kayu Batu No. 16 Base’G Japut.",
+gambar: `<img src='img/sdinprestanjungria.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Kayu Batu No. Jalan Kayu Batu No. 16 Base’G Japut.<br>
+Titik Lokasi : -2.52185, 140.73631<br>
+Jumlah murid : 725 orang<br>
+<a href='img/sdinprestanjungria.jpeg' target='_blank'><img src='img/sdinprestanjungria.jpeg' width='150'></a><br>`
+},
 
 ];

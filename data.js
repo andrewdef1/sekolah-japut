@@ -835,12 +835,12 @@ lon: 140.71062056230554,
 type: "SMA", 
 siswa: "280 orang",
 alamat: "Jln. Angkasa Base'G Jayapura Utara.",
-gambar: `<img src='img/sma5jyp.jpeg' width='500vw' height='400vh'>`,
+gambar: ``,
 description: `
 <br>Jln. Angkasa Base'G Jayapura Utara.<br>
 Titik Lokasi : -2.507907145964016, 140.71062056230554<br>
 Jumlah murid : 280 orang<br>
-<a href='img/sma5jyp.jpeg' target='_blank'><img src='img/sma5jyp.jpeg' width='150'></a><br>`
+<a href='' target='_blank'><img src='' width='150'></a><br>`
 },
 {
 name: "SMP WAHANA CITA",
@@ -858,15 +858,15 @@ Jumlah murid : 14 orang<br>
 },
 {
 name: "SMP NEGERI 12 JAYAPURA",
-lat: -2.50618238226265, 
-lon: 140.7161701362341, 
+lat: -2.5077704819494975, 
+lon: 140.71157006050663, 
 type: "SMP", 
 siswa: "255 orang",
 alamat: "Jln. Raya angkasa Jayapura Utara.",
 gambar: ``,
 description: `
 <br>Jln. Raya angkasa Jayapura Utara.<br>
-Titik Lokasi : -2.50618238226265, 140.7161701362341<br>
+Titik Lokasi : -2.5077704819494975, 140.71157006050663<br>
 Jumlah murid : 255 orang<br>
 <a href='' target='_blank'><img src='' width='150'></a><br>`
 },

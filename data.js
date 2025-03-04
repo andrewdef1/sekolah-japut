@@ -87,32 +87,88 @@ var schools = [
 
 { 
    name: "SD NURUL HUDA YAPIS 1 YAPIS JAYAPURA", 
-   lat: -2.54318, 
-   lon: 140.70065,
+   lat: -2.5431286829426414, 
+   lon: 140.70036636808936,
    type: "SD", 
    siswa: "383 orang",
    alamat: "Jln. Percetakan Negara No 126 Jayapura.",
    gambar: `<img src='img/sd nurul hudayapis1.jpeg' width='500vw' height='400vh'>`,
    description: `
    <br>Jln. Percetakan Negara No 126 Jayapura.<br>
-   Titik Lokasi : -2.54318, 140.70065<br>
+   Titik Lokasi : -2.5431286829426414, 140.70036636808936<br>
    Jumlah murid : 383 orang<br>
 <a href='img/sd nurul hudayapis1.jpeg' target='_blank'><img src='img/sd nurul hudayapis1.jpeg' width='150'></a><br>`
 },
 
 { 
    name: "SD MI NURUL HUDA", 
-   lat: -2.54318, 
-   lon: 140.70065, 
+   lat: -2.543154152867901, 
+   lon: 140.70044478973261, 
    type: "SD", 
    siswa: "383 orang",
-   alamat: "Jln. Percetakan Negara No 126 Jayapura.",
+   alamat: "Jln. Percetakan Negara No 12 Jayapura.",
    gambar: `<img src='img/sd nurul hudayapis1.jpeg' width='500vw' height='400vh'>`,
    description: `
-   <br>Jln. Percetakan Negara No 126 Jayapura.<br>
-   Titik Lokasi : -2.54318, 140.70065<br>
+   <br>Jln. Percetakan Negara No 12 Jayapura.<br>
+   Titik Lokasi : -2.543154152867901, 140.70044478973261<br>
    Jumlah murid : 383 orang<br>
 <a href='img/sd nurul hudayapis1.jpeg' target='_blank'><img src='img/sd nurul hudayapis1.jpeg' width='150'></a><br>`
+},
+{
+name: "SMP NURUL HUDA YAPIS JAYAPURA", 
+lat: -2.543207744211073, 
+lon: 140.7005299498672, 
+type: "SMP", 
+siswa: "132 orang",
+alamat: "Jln. Percetakan Negara Jayapura.",
+gambar: `<img src='img/sd nurul hudayapis1.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Percetakan Negara Jayapura.<br>
+Titik Lokasi : -2.543207744211073, 140.7005299498672<br>
+Jumlah murid : 132 orang<br>
+<a href='img/sd nurul hudayapis1.jpeg' target='_blank'><img src='img/sd nurul hudayapis1.jpeg' width='150'></a><br>`
+},
+{
+name: "TK TRIKORA 2 KOTA JAYAPURA",
+lat: -2.5409607045699323, 
+lon: 140.70572621747752, 
+type: "TK", 
+siswa: "235 orang",
+alamat: "Jln. Slamet Riyadi No. 06 Jayapura",
+gambar: `<img src='img/tk trikora2.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Slamet Riyadi No. 06 Jayapura<br>
+Titik Lokasi : -2.5409607045699323, 140.70572621747752<br>
+Jumlah murid : 235 orang<br>
+<a href='img/tk trikora2.jpeg' target='_blank'><img src='img/tk trikora2.jpeg' width='150'></a><br>`
+},
+{
+name: "SD NEGERI INPRES I APO JAYAPURA",
+lat: -2.5335690654831535, 
+lon: 140.70462985188476, 
+type: "SD", 
+siswa: "826 orang",
+alamat: "Jln. Kabupaten II Apo Jayapura",
+gambar: `<img src='img/sdinpresapo12.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Kabupaten II Apo Jayapura<br>
+Titik Lokasi : -2.5335690654831535, 140.70462985188476<br>
+Jumlah murid : 826 orang<br>
+<a href='img/sdinpresapo12.jpeg' target='_blank'><img src='img/sdinpresapo12.jpeg' width='150'></a><br>`
+},
+{
+name: "SD NEGERI INPRES II APO JAYAPURA",
+lat: -2.53374837745802, 
+lon: 140.7046524221613, 
+type: "SD", 
+siswa: "444 orang",
+alamat: "Jln. Kabupaten II Apo Jayapura",
+gambar: `<img src='img/sdinpresapo12.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Kabupaten II Apo Jayapura<br>
+Titik Lokasi : -2.53374837745802, 140.7046524221613<br>
+Jumlah murid : 444 orang<br>
+<a href='img/sdinpresapo12.jpeg' target='_blank'><img src='img/sdinpresapo12.jpeg' width='150'></a><br>`
 },
 
 ];

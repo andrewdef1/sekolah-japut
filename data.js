@@ -196,7 +196,21 @@ description: `
 <br>APO Gunung Distrik Japut<br>
 Titik Lokasi : -2.53587, 140.70265<br>
 Jumlah murid : 34 orang<br>
-<a href='img/paudimmapo.jpeg' target='_blank'><img src='img/paudimmapo.jpeg width='150'></a><br>`
+<a href='img/paudimmapo.jpeg' target='_blank'><img src='img/paudimmapo.jpeg' width='150'></a><br>`
+},
+{
+name: "PAUD STAR KIDS APO JAYAPURA",
+lat: -2.53389, 
+lon: 140.70438, 
+type: "PAUD", 
+siswa: "18 orang",
+alamat: "Jl. APO Distrik Japut",
+gambar: `<img src='img/paudstarkids.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jl. APO Distrik Japut<br>
+Titik Lokasi : -2.53389, 140.70438<br>
+Jumlah murid : 34 orang<br>
+<a href='img/paudstarkids.jpeg' target='_blank'><img src='img/paudstarkids.jpeg' width='150'></a><br>`
 },
 
 ];

@@ -648,15 +648,15 @@ Jumlah murid : 94 orang<br>
 },
 {
 name: "MA BAITURAHHIM JAYAPURA",
-lat: -2.544061682602551, 
-lon: 140.69741240668804, 
+lat: -2.545141019614676, 
+lon: 140.6993667390026, 
 type: "SMA", 
 siswa: "- orang",
 alamat: "Jln. Ahmad Yani No. 70 Jayapura",
 gambar: `<img src='img/mtsbait.jpeg' width='500vw' height='400vh'>`,
 description: `
 <br>Jln. Ahmad Yani No. 70 Jayapura<br>
-Titik Lokasi : -2.544061682602551, 140.69741240668804<br>
+Titik Lokasi : -2.545141019614676, 140.6993667390026<br>
 Jumlah murid : - orang<br>
 <a href='img/mtsbait.jpeg' target='_blank'><img src='img/mtsbait.jpeg' width='150'></a><br>`
 },

@@ -820,13 +820,83 @@ lat: -2.5081562820028585,
 lon: 140.7124498874916, 
 type: "SMA", 
 siswa: "232 orang",
-alamat: "Jln. Jl. Angkasa Base'G Jayapura Utara. ",
+alamat: "Jln. Angkasa Base'G Jayapura Utara.",
 gambar: `<img src='img/sma5jyp.jpeg' width='500vw' height='400vh'>`,
 description: `
-<br>Jln. Jl. Angkasa Base'G Jayapura Utara. <br>
+<br>Jln. Angkasa Base'G Jayapura Utara.<br>
 Titik Lokasi : -2.5081562820028585, 140.7124498874916<br>
 Jumlah murid : 232 orang<br>
 <a href='img/sma5jyp.jpeg' target='_blank'><img src='img/sma5jyp.jpeg' width='150'></a><br>`
+},
+{
+name: "SMK Negeri 9 JAYAPURA",
+lat: -2.5079179228088875, 
+lon: 140.7105312805269, 
+type: "SMA", 
+siswa: "280 orang",
+alamat: "Jln. Angkasa Base'G Jayapura Utara.",
+gambar: `<img src='img/sma5jyp.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Angkasa Base'G Jayapura Utara.<br>
+Titik Lokasi : -2.5079179228088875, 140.7105312805269<br>
+Jumlah murid : 280 orang<br>
+<a href='img/sma5jyp.jpeg' target='_blank'><img src='img/sma5jyp.jpeg' width='150'></a><br>`
+},
+{
+name: "SMP WAHANA CITA",
+lat: -2.53773, 
+lon: 140.71074, 
+type: "SMP", 
+siswa: "14 orang",
+alamat: "Jln. Frans Kaisepo Pasifik Indah Jayapura Utara.",
+gambar: `<img src='img/smpwahanacita.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Frans Kaisepo Pasifik Indah Jayapura Utara.<br>
+Titik Lokasi : -2.53773, 140.71074<br>
+Jumlah murid : 14 orang<br>
+<a href='img/smpwahanacita.jpeg' target='_blank'><img src='img/smpwahanacita.jpeg' width='150'></a><br>`
+},
+{
+name: "SMP NEGERI 12 JAYAPURA",
+lat: -2.50618238226265, 
+lon: 140.7161701362341, 
+type: "SMP", 
+siswa: "255 orang",
+alamat: "Jln. Raya angkasa Jayapura Utara.",
+gambar: ``,
+description: `
+<br>Jln. Raya angkasa Jayapura Utara.<br>
+Titik Lokasi : -2.50618238226265, 140.7161701362341<br>
+Jumlah murid : 255 orang<br>
+<a href='' target='_blank'><img src='' width='150'></a><br>`
+},
+{
+name: "SMP YPPK Kristus Raja Dok V",
+lat: -2.5325277347908894, 
+lon: 140.7164248166586, 
+type: "SMP", 
+siswa: "197 orang",
+alamat: "Jln. Samratulangi No. 50 Dok V Atas Jayapura Utara.",
+gambar: ``,
+description: `
+<br>Jln. Samratulangi No. 50 Dok V Atas Jayapura Utara.<br>
+Titik Lokasi : -2.5325277347908894, 140.7164248166586<br>
+Jumlah murid : 197 orang<br>
+<a href='' target='_blank'><img src='' width='150'></a><br>`
+},
+{
+name: "SMAK (Sekolah Menengah Analis Kesehatan) Jayapura",
+lat: -2.5316857061884197, 
+lon: 140.70590513175827, 
+type: "SMA", 
+siswa: "192 orang",
+alamat: "Jln. kesehatan dok II Jayapura",
+gambar: ``,
+description: `
+<br>Jln. kesehatan dok II Jayapura<br>
+Titik Lokasi : -2.5316857061884197, 140.70590513175827<br>
+Jumlah murid : 192 orang<br>
+<a href='' target='_blank'><img src='' width='150'></a><br>`
 },
 
 ];

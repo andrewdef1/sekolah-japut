@@ -19,7 +19,7 @@ var schoolIcons = {
 };
 
 // Variabel hitung jumlah sekolah
-var countSD = 0, countSMP = 0, countSMA = 0;
+var countSD = 0, countSMP = 0, countSMA = 0, countPAUD = 0, countTK = 0, countPT = 0;
 
 // Tambahkan sekolah ke peta
 schools.forEach(school => {

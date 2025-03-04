@@ -19,21 +19,22 @@ var popupLine;
 var userMarker = null;
 var userLatLng = null;
 var routingControl = null;
+var locationRequested = false;
 
 function getUserLocation() {
+    if (locationRequested) return;
+    locationRequested = true;
+    
     if ("geolocation" in navigator) {
-        navigator.geolocation.watchPosition(
+        navigator.geolocation.getCurrentPosition(
             function(position) {
                 userLatLng = [position.coords.latitude, position.coords.longitude];
-
-                if (userMarker) {
-                    userMarker.setLatLng(userLatLng);
-                } else {
+                if (!userMarker) {
                     userMarker = L.marker(userLatLng, {
                         icon: L.icon({ iconUrl: 'user.png', iconSize: [30, 30] })
                     }).addTo(map).bindPopup("Posisi Anda");
                 }
-
+                userMarker.setLatLng(userLatLng);
                 map.setView(userLatLng, 14);
             },
             function(error) {
@@ -47,6 +48,12 @@ function getUserLocation() {
 }
 
 getUserLocation();
+
+document.addEventListener("visibilitychange", function() {
+    if (document.visibilityState === "visible") {
+        getUserLocation();
+    }
+});
 
 function showRoute(destinationLatLng) {
     if (!userLatLng) {

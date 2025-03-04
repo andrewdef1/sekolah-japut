@@ -688,5 +688,145 @@ Titik Lokasi : -2.5441696234724462, 140.6952801113218<br>
 Jumlah murid : 515 orang<br>
 <a href='img/smamandala.jpeg' target='_blank'><img src='img/smamandala.jpeg' width='150'></a><br>`
 },
+{
+name: "SMA HIKMAH YAPIS JAYAPURA",
+lat: -2.5301111299267545, 
+lon: 140.7176498628934, 
+type: "SMA", 
+siswa: "202 orang",
+alamat: "Jln. Samratulangi No.3.A Jayapura Utara.",
+gambar: `<img src='img/smahikmahyapis.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Samratulangi No.3.A Jayapura Utara.<br>
+Titik Lokasi : -2.5301111299267545, 140.7176498628934<br>
+Jumlah murid : 202 orang<br>
+<a href='img/smahikmahyapis.jpeg' target='_blank'><img src='img/smahikmahyapis.jpeg' width='150'></a><br>`
+},
+{
+name: "SMK HIKMAH YAPIS JAYAPURA",
+lat: -2.530213864585711, 
+lon: 140.71698098123466, 
+type: "SMA", 
+siswa: "202 orang",
+alamat: "Jln. Samratulangi No.3.A Jayapura Utara.",
+gambar: `<img src='img/smkhikmahyapis.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Samratulangi No.3.A Jayapura Utara.<br>
+Titik Lokasi : -2.530213864585711, 140.71698098123466<br>
+Jumlah murid : 202 orang<br>
+<a href='img/smkhikmahyapis.jpeg' target='_blank'><img src='img/smkhikmahyapis.jpeg' width='150'></a><br>`
+},
+{
+name: "SMP YPK PAULUS DOK V JAYAPURA",
+lat: -2.528973599696466, 
+lon: 140.71936266469112, 
+type: "SMP", 
+siswa: "567 orang",
+alamat: "Jln. Trikora No. 28 Dok V Atas Jayapura Utara.",
+gambar: `<img src='img/smpsmkypkpaulusdokv.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Trikora No. 28 Dok V Atas Jayapura Utara.<br>
+Titik Lokasi : -2.528973599696466, 140.71936266469112<br>
+Jumlah murid : 567 orang<br>
+<a href='img/smpsmkypkpaulusdokv.jpeg' target='_blank'><img src='img/smpsmkypkpaulusdokv.jpeg' width='150'></a><br>`
+},
+{
+name: "SMK YPK PAULUS DOK V JAYAPURA",
+lat: -2.5290827787343275, 
+lon: 140.71944727280663, 
+type: "SMA", 
+siswa: "280 orang",
+alamat: "Jln. Trikora No. 28 Dok V Atas Jayapura Utara.",
+gambar: `<img src='img/smpsmkypkpaulusdokv.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Trikora No. 28 Dok V Atas Jayapura Utara.<br>
+Titik Lokasi : -2.5290827787343275, 140.71944727280663<br>
+Jumlah murid : 280 orang<br>
+<a href='img/smpsmkypkpaulusdokv.jpeg' target='_blank'><img src='img/smpsmkypkpaulusdokv.jpeg' width='150'></a><br>`
+},
+{
+name: "SMP NEGERI 6 JAYAPURA",
+lat: -2.523519631576106, 
+lon: 140.73875448987815, 
+type: "SMP", 
+siswa: "542 orang",
+alamat: "Jln. Kayu batu tanjung ria Base’G Jayapura Utara",
+gambar: `<img src='img/smp6.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Kayu batu tanjung ria Base’G Jayapura Utara<br>
+Titik Lokasi : -2.523519631576106, 140.73875448987815<br>
+Jumlah murid : 542 orang<br>
+<a href='img/smp6.jpeg' target='_blank'><img src='img/smp6.jpeg' width='150'></a><br>`
+},
+{
+name: "SMA NEGERI 2 JAYAPURA",
+lat: -2.517701309415048, 
+lon: 140.72651790892354, 
+type: "SMA", 
+siswa: "1.301 orang",
+alamat: "Jln. Serui No. 6 Dok IX Atas Jayapura Utara.",
+gambar: `<img src='img/smandajyp.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Serui No. 6 Dok IX Atas Jayapura Utara.<br>
+Titik Lokasi : -2.517701309415048, 140.72651790892354<br>
+Jumlah murid : 1.301 orang<br>
+<a href='img/smandajyp.jpeg' target='_blank'><img src='img/smandajyp.jpeg' width='150'></a><br>`
+},
+{
+name: "SMP YPK SION DOK VIII JAYAPURA",
+lat: -2.521945373259722, 
+lon: 140.72596542426717, 
+type: "SMP", 
+siswa: "157 orang",
+alamat: "Jln. Sulawesi No. 21 Dok VIII Jayapura utara.",
+gambar: `<img src='img/smpypksion.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Sulawesi No. 21 Dok VIII Jayapura utara.<br>
+Titik Lokasi : -2.521945373259722, 140.72596542426717<br>
+Jumlah murid : 157 orang<br>
+<a href='img/smpypksion.jpeg' target='_blank'><img src='img/smpypksion.jpeg' width='150'></a><br>`
+},
+{
+name: "SMK NEGERI 1 JAYAPURA",
+lat: -2.533949946662089, 
+lon: 140.7226875013789, 
+type: "SMA", 
+siswa: "750 orang",
+alamat: "Jln. Nusa Tenggara No. 14 Dok V Bawah",
+gambar: `<img src='img/smk1jyp.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Nusa Tenggara No. 14 Dok V Bawah<br>
+Titik Lokasi : -2.533949946662089, 140.7226875013789<br>
+Jumlah murid : 750 orang<br>
+<a href='img/smk1jyp.jpeg' target='_blank'><img src='img/smk1jyp.jpeg' width='150'></a><br>`
+},
+{
+name: "SMA GABUNGAN JAYAPURA",
+lat: -2.534699022368613, 
+lon: 140.72568491077462, 
+type: "SMA", 
+siswa: "232 orang",
+alamat: "Jln. Samudera No. 24 Jayapura Utara.",
+gambar: `<img src='img/smagabungan.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Samudera No. 24 Jayapura Utara.<br>
+Titik Lokasi : -2.534699022368613, 140.72568491077462<br>
+Jumlah murid : 232 orang<br>
+<a href='img/smagabungan.jpeg' target='_blank'><img src='img/smagabungan.jpeg' width='150'></a><br>`
+},
+{
+name: "SMA NEGERI 5 JAYAPURA",
+lat: -2.5081562820028585, 
+lon: 140.7124498874916, 
+type: "SMA", 
+siswa: "232 orang",
+alamat: "Jln. Jl. Angkasa Base'G Jayapura Utara. ",
+gambar: `<img src='img/sma5jyp.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Jl. Angkasa Base'G Jayapura Utara. <br>
+Titik Lokasi : -2.5081562820028585, 140.7124498874916<br>
+Jumlah murid : 232 orang<br>
+<a href='img/sma5jyp.jpeg' target='_blank'><img src='img/sma5jyp.jpeg' width='150'></a><br>`
+},
 
 ];

@@ -42,4 +42,19 @@ var schools = [
 <a href='img/sd inpres gurabesi.jpeg' target='_blank'><img src='img/sd inpres gurabesi.jpeg' width='150'></a><br>`
   },
 
+  { 
+   name: "SD NURUL HUDA YAPIS 2 YAPIS JAYAPURA", 
+   lat: -2.54484, 
+   lon: 140.69949, 
+   type: "SD", 
+   siswa: "269 orang",
+   alamat: "Jln. Olah Raga No. 6 Jayapura.",
+   gambar: `<img src='img/sd nurul hudayapis2.jpeg' width='500vw' height='400vh'>`,
+   description: `
+   <br>Jln. Olah Raga No. 6 Jayapura.<br>
+   Titik Lokasi : -2.54484, 140.69949<br>
+   Jumlah murid	: 745 orang<br>
+<a href='img/sd nurul hudayapis2.jpeg' target='_blank'><img src='img/sd nurul hudayapis2.jpeg' width='150'></a><br>`
+},
+
 ];

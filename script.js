@@ -10,9 +10,12 @@ L.tileLayer('https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
 
 // Ikon sekolah berdasarkan jenjang
 var schoolIcons = {
+    "PAUD": L.icon({ iconUrl: 'red.png', iconSize: [23, 30] }),
+    "TK": L.icon({ iconUrl: 'red.png', iconSize: [23, 30] }),
     "SD": L.icon({ iconUrl: 'yellow.png', iconSize: [23, 30] }),
     "SMP": L.icon({ iconUrl: 'green.png', iconSize: [23, 30] }),
-    "SMA": L.icon({ iconUrl: 'purple.png', iconSize: [23, 30] })
+    "SMA": L.icon({ iconUrl: 'purple.png', iconSize: [23, 30] }),
+    "PT": L.icon({ iconUrl: 'blue.png', iconSize: [23, 30] })
 };
 
 // Variabel hitung jumlah sekolah
@@ -32,15 +35,21 @@ schools.forEach(school => {
         `);
 
     // Hitung jumlah sekolah per kategori
+    if (school.type === "PAUD") countPAUD++;
+    if (school.type === "TK") countTK++;
     if (school.type === "SD") countSD++;
     if (school.type === "SMP") countSMP++;
     if (school.type === "SMA") countSMA++;
+    if (school.type === "PT") countPT++;
 });
 
 // Tampilkan jumlah sekolah di HTML
+document.getElementById("count-paud").textContent = countPAUD;
+document.getElementById("count-tk").textContent = countTK;
 document.getElementById("count-sd").textContent = countSD;
 document.getElementById("count-smp").textContent = countSMP;
 document.getElementById("count-sma").textContent = countSMA;
+document.getElementById("count-pt").textContent = countPT;
 
 // Fungsi Print Data Sekolah
 function printSchool(name, type, alamat, lat, lon, siswa, gambar) {

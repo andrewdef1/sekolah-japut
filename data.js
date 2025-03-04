@@ -816,29 +816,29 @@ Jumlah murid : 232 orang<br>
 },
 {
 name: "SMA NEGERI 5 JAYAPURA",
-lat: -2.5081562820028585, 
-lon: 140.7124498874916, 
+lat: -2.5082956936950676, 
+lon: 140.71177927657743, 
 type: "SMA", 
 siswa: "232 orang",
 alamat: "Jln. Angkasa Base'G Jayapura Utara.",
 gambar: `<img src='img/sma5jyp.jpeg' width='500vw' height='400vh'>`,
 description: `
 <br>Jln. Angkasa Base'G Jayapura Utara.<br>
-Titik Lokasi : -2.5081562820028585, 140.7124498874916<br>
+Titik Lokasi : -2.5082956936950676, 140.71177927657743<br>
 Jumlah murid : 232 orang<br>
 <a href='img/sma5jyp.jpeg' target='_blank'><img src='img/sma5jyp.jpeg' width='150'></a><br>`
 },
 {
 name: "SMK Negeri 9 JAYAPURA",
-lat: -2.5079179228088875, 
-lon: 140.7105312805269, 
+lat: -2.507907145964016, 
+lon: 140.71062056230554, 
 type: "SMA", 
 siswa: "280 orang",
 alamat: "Jln. Angkasa Base'G Jayapura Utara.",
 gambar: `<img src='img/sma5jyp.jpeg' width='500vw' height='400vh'>`,
 description: `
 <br>Jln. Angkasa Base'G Jayapura Utara.<br>
-Titik Lokasi : -2.5079179228088875, 140.7105312805269<br>
+Titik Lokasi : -2.507907145964016, 140.71062056230554<br>
 Jumlah murid : 280 orang<br>
 <a href='img/sma5jyp.jpeg' target='_blank'><img src='img/sma5jyp.jpeg' width='150'></a><br>`
 },

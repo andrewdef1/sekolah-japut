@@ -2,8 +2,8 @@
 var schools = [
    { 
        name: "SD Hikmah I Yapis Jayapura", 
-       lat: -2.53023, 
-       lon: 140.71751, 
+       lat: -2.529582203358798,
+       lon: 140.71700108987818, 
        type: "SD", 
        siswa: "622 orang",
        alamat: "Jln. Dr. Samratulangi Dok V Jayapura Utara",
@@ -25,13 +25,13 @@ var schools = [
    },
    { 
        name: "SD KARTIKA VI – JAYAPURA", 
-       lat: -2.54424, 
-       lon: 140.69626, 
+       lat: -2.544070366266895, 
+       lon: 140.69605458173442, 
        type: "SMP", 
-       siswa: "400 orang",
-       alamat: "Jln. Pendidikan No. 12 Jayapura",
+       siswa: "895  orang",
+       alamat: "Jln. Diponegoro No. 12 Jayapura",
        gambar: `<img src='img/tksdsmp kartika.jpeg' width='500vw' height='400vh'>`,
-       description: `<a href='img/tksdsmp kartika.jpeg' target='_blank'><img src='img/sd hikmah yapis 1.jpeg' width='150'></a><br>
+       description: `<a href='img/tksdsmp kartika.jpeg' target='_blank'><img src='img/tksdsmp kartika.jpeg' width='150'></a><br>
        <br>Jln. Diponegoro No. 12 Jayapura<br>
 No Tlp	 (0967) 534950 a<br>
 - Kepala Sekolah	: SUKARLAN, S.Pda<br>

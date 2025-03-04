@@ -184,5 +184,19 @@ Titik Lokasi : -2.53633, 140.70209<br>
 Jumlah murid : 215 orang<br>
 <a href='img/sdapotugu.jpeg' target='_blank'><img src='img/sdapotugu.jpeg' width='150'></a><br>`
 },
+{
+name: "PAUD IMANUEL APO",
+lat: -2.53587, 
+lon: 140.70265, 
+type: "PAUD", 
+siswa: "34 orang",
+alamat: "APO Gunung Distrik Japut",
+gambar: `<img src='img/paudimmapo.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>APO Gunung Distrik Japut<br>
+Titik Lokasi : -2.53587, 140.70265<br>
+Jumlah murid : 34 orang<br>
+<a href='img/paudimmapo.jpeg' target='_blank'><img src='img/paudimmapo.jpeg width='150'></a><br>`
+},
 
 ];

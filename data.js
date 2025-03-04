@@ -450,5 +450,47 @@ Titik Lokasi : -2.51950, 140.73251<br>
 Jumlah murid : 62 orang<br>
 <a href='img/tkbumibhakti.jpeg' target='_blank'><img src='img/tkbumibhakti.jpeg' width='150'></a><br>`
 },
+{
+name: "SD NEGERI INPRES DOK 9 JAYAPURA",
+lat: -2.51529, 
+lon: 140.73170, 
+type: "SD", 
+siswa: "383 orang",
+alamat: "Jln. Tanjung Ria Dok IX kali Jayapura Utara.",
+gambar: `<img src='img/sdinpresdok9.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Tanjung Ria Dok IX kali Jayapura Utara.<br>
+Titik Lokasi : -2.51529, 140.73170<br>
+Jumlah murid : 383 orang<br>
+<a href='img/sdinpresdok9.jpeg' target='_blank'><img src='img/sdinpresdok9.jpeg' width='150'></a><br>`
+},
+{
+name: "PAUD SURYAKASIH DOK 9 JAYAPURA",
+lat: -2.51909, 
+lon: 140.73012, 
+type: "PAUD", 
+siswa: "- orang",
+alamat: "Jln. Sulawesi, Jayapura Utara.",
+gambar: `<img src='img/paudsuryakasih.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Sulawesi, Jayapura Utara.<br>
+Titik Lokasi : -2.51909, 140.73012<br>
+Jumlah murid : - orang<br>
+<a href='img/paudsuryakasih.jpeg' target='_blank'><img src='img/paudsuryakasih.jpeg' width='150'></a><br>`
+},
+{
+name: "SD YPPK KRISTUS RAJA DOK 8 JAYAPURA",
+lat: -2.51792, 
+lon: 140.72720, 
+type: "SD", 
+siswa: "211 orang",
+alamat: "Jln. Serui No. 18 dok IX jayapura utara.",
+gambar: `<img src='img/sdyppkkristusrajadok8.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Serui No. 18 dok IX jayapura utara.<br>
+Titik Lokasi : -2.51792, 140.72720<br>
+Jumlah murid : 211 orang<br>
+<a href='img/sdyppkkristusrajadok8.jpeg' target='_blank'><img src='img/sdyppkkristusrajadok8.jpeg' width='150'></a><br>`
+},
 
 ];

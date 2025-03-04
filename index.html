@@ -40,7 +40,9 @@
         };
 
         var schools = [
+            //PAUD
             { name: "Sekolah Minggu Mutiara Kasih", lat: -2.524134709678254, lon: 140.7335552819476, type: "PAUD", description: `Jl. Pasar Inpres RT 002 / RW 004 Kel. Tanjung Ria <br> - Pengelola: TINA AWARAWI <br> - No Hp: - <br> - Jumlah pengasuh: 06 orang <br> - Jumlah murid: 43 orang <br> - Jumlah ruang kelas: 02 ruang kelas` },
+            
             { name: "SD Hikmah I Yapis Jayapura", 
                 lat: -2.53023, 
                 lon: 140.71751, 
@@ -67,22 +69,55 @@
         var countSD = 0, countPAUD = 0, countSMP = 0, countSMA = 0, countPT = 0;
 
         schools.forEach(school => {
-            L.marker([school.lat, school.lon], { icon: schoolIcons[school.type] })
-                .addTo(map)
-                .bindPopup(`<b>${school.name}</b><br>Jenjang: ${school.type}<br><i>${school.description}</i>`);
+    L.marker([school.lat, school.lon], { icon: schoolIcons[school.type] })
+        .addTo(map)
+        .bindPopup(`
+            <b>${school.name}</b><br>
+            Jenjang: ${school.type}<br>
+            <i>${school.description}</i><br><hr>
+            <button onclick="printSchool('${school.name}', '${school.type}', \`${school.description}\`)">
+                🖨 Print
+            </button>
+        `);
+});
 
-            if (school.type === "SD") countSD++;
-            else if (school.type === "PAUD") countPAUD++;
-            else if (school.type === "SMP") countSMP++;
-            else if (school.type === "SMA") countSMA++;
-            else if (school.type === "PT") countPT++;
-        });
 
         document.getElementById("count-sd").textContent = countSD;
         document.getElementById("count-paud").textContent = countPAUD;
         document.getElementById("count-smp").textContent = countSMP;
         document.getElementById("count-sma").textContent = countSMA;
         document.getElementById("count-pt").textContent = countPT;
+
+        function printSchool(name, type, description) {
+    let printWindow = window.open('', '', 'width=600,height=400');
+    printWindow.document.write(`
+        <html>
+        <head>
+            <title>Print Data Sekolah</title>
+            <style>
+                body { font-family: Arial, sans-serif; }
+                h2 { text-align: center; }
+                .container { padding: 20px; }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h2>${name}</h2>
+                <p><strong>Jenjang:</strong> ${type}</p>
+                <p>${description}</p>
+            </div>
+            <script>
+                window.onload = function() {
+                    window.print();
+                    setTimeout(() => window.close(), 500);
+                };
+            <\/script>
+        </body>
+        </html>
+    `);
+    printWindow.document.close();
+}
+
     </script>
 </body>
 </html>

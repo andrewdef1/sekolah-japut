@@ -479,7 +479,7 @@ Jumlah murid : - orang<br>
 <a href='img/paudsuryakasih.jpeg' target='_blank'><img src='img/paudsuryakasih.jpeg' width='150'></a><br>`
 },
 {
-name: "SD YPPK KRISTUS RAJA DOK 8 JAYAPURA",
+name: "SD YPPK KRISTUS RAJA DOK 9 JAYAPURA",
 lat: -2.51792, 
 lon: 140.72720, 
 type: "SD", 
@@ -491,6 +491,34 @@ description: `
 Titik Lokasi : -2.51792, 140.72720<br>
 Jumlah murid : 211 orang<br>
 <a href='img/sdyppkkristusrajadok8.jpeg' target='_blank'><img src='img/sdyppkkristusrajadok8.jpeg' width='150'></a><br>`
+},
+{
+name: "SD NEGERI INPRES DOK 8 JAYAPURA",
+lat: -2.52276, 
+lon: 140.72250, 
+type: "SD", 
+siswa: "340 orang",
+alamat: "Jln. Sungai Tami Dok VIII Atas Jayapura Utara.",
+gambar: `<img src='img/sdinpresdok8.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Sungai Tami Dok VIII Atas Jayapura Utara.<br>
+Titik Lokasi : -2.52276, 140.72250<br>
+Jumlah murid : 340 orang<br>
+<a href='img/sdinpresdok8.jpeg' target='_blank'><img src='img/sdinpresdok8.jpeg' width='150'></a><br>`
+},
+{
+name: "SD YPK I DOK VIII JAYAPURA",
+lat: -2.52207, 
+lon: 140.72543, 
+type: "SD", 
+siswa: "315 orang",
+alamat: "Jln. Sulawesi No. 1 Dok VIII Jayapura Utara",
+gambar: `<img src='img/sdypk1dok8.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Sulawesi No. 1 Dok VIII Jayapura Utara<br>
+Titik Lokasi : -2.52207, 140.72543<br>
+Jumlah murid : 315 orang<br>
+<a href='img/sdypk1dok8.jpeg' target='_blank'><img src='img/sdypk1dok8.jpeg' width='150'></a><br>`
 },
 
 ];

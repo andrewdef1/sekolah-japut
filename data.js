@@ -520,5 +520,61 @@ Titik Lokasi : -2.52207, 140.72543<br>
 Jumlah murid : 315 orang<br>
 <a href='img/sdypk1dok8.jpeg' target='_blank'><img src='img/sdypk1dok8.jpeg' width='150'></a><br>`
 },
+{
+name: "SD YPK II DOK VIII JAYAPURA",
+lat: -2.52230, 
+lon: 140.72549, 
+type: "SD", 
+siswa: "252 orang",
+alamat: "Jl. Nimboran No. 8, Jayapura Utara",
+gambar: `<img src='img/sdypk2dok8.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jl. Nimboran No. 8, Jayapura Utara<br>
+Titik Lokasi : -2.52230, 140.72549<br>
+Jumlah murid : 252 orang<br>
+<a href='img/sdypk2dok8.jpeg' target='_blank'><img src='img/sdypk2dok8.jpeg' width='150'></a><br>`
+},
+{
+name: "TK TUT WURI HANDAYANI",
+lat: -2.52584, 
+lon: 140.72314, 
+type: "TK", 
+siswa: "58 orang",
+alamat: "Jln. Sulawesi Dok VIII Jayapura Utara.",
+gambar: `<img src='img/tktutwuri.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Sulawesi Dok VIII Jayapura Utara.<br>
+Titik Lokasi : -2.52584, 140.72314<br>
+Jumlah murid : 58 orang<br>
+<a href='img/tktutwuri.jpeg' target='_blank'><img src='img/tktutwuri.jpeg' width='150'></a><br>`
+},
+{
+name: "Sekolah Minggu Rehobot",
+lat: -2.52859, 
+lon: 140.72296, 
+type: "PAUD", 
+siswa: "20 orang",
+alamat: "Jl. Sulawesi No. 21 Dok VII RT 01 / RW 05 Kel. Imbi",
+gambar: `<img src='img/paudrehobot.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jl. Sulawesi No. 21 Dok VII RT 01 / RW 05 Kel. Imbi<br>
+Titik Lokasi : -2.52859, 140.72296<br>
+Jumlah murid : 20 orang<br>
+<a href='img/paudrehobot.jpeg' target='_blank'><img src='img/paudrehobot.jpeg' width='150'></a><br>`
+},
+{
+name: "SD YPPK KRISTUS RAJA DOK V JAYAPURA",
+lat: -2.53301, 
+lon: 140.72365, 
+type: "SD", 
+siswa: "574 orang",
+alamat: "Jln. Soa-Siu Dok V Bawah Jayapura Utara",
+gambar: `<img src='img/sdkristusrajadok5.jpeg' width='500vw' height='400vh'>`,
+description: `
+<br>Jln. Soa-Siu Dok V Bawah Jayapura Utara<br>
+Titik Lokasi : -2.53301, 140.72365<br>
+Jumlah murid : 574 orang<br>
+<a href='img/sdkristusrajadok5.jpeg' target='_blank'><img src='img/sdkristusrajadok5.jpeg' width='150'></a><br>`
+},
 
 ];

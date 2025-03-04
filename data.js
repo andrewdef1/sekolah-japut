@@ -17,7 +17,7 @@ var schools = [
        name: "SD KARTIKA VI – JAYAPURA", 
        lat: -2.544070366266895, 
        lon: 140.69605458173442, 
-       type: "SMP", 
+       type: "SD", 
        siswa: "895  orang",
        alamat: "Jln. Diponegoro No. 12 Jayapura",
        gambar: `<img src='img/tksdsmp kartika.jpeg' width='500vw' height='400vh'>`,
@@ -27,5 +27,19 @@ var schools = [
        Jumlah murid	: 895 oranga<br>
 <a href='img/tksdsmp kartika.jpeg' target='_blank'><img src='img/tksdsmp kartika.jpeg' width='150'></a><br>`
    },
+   { 
+      name: "SD NEGERI INPRES GURABESI JAYAPURA", 
+      lat: -2.54043, 
+      lon: 140.69740, 
+      type: "SD", 
+      siswa: "269 orang",
+      alamat: "Jln. Pemuda Kloofkamp jayapura.",
+      gambar: `<img src='img/sd inpres gurabesi.jpeg' width='500vw' height='400vh'>`,
+      description: `
+      <br>Jln. Pemuda Kloofkamp jayapura.<br>
+      Titik Lokasi : -2.54043, 140.69740<br>
+      Jumlah murid	: 269 orang<br>
+<a href='img/sd inpres gurabesi.jpeg' target='_blank'><img src='img/sd inpres gurabesi.jpeg' width='150'></a><br>`
+  },
 
 ];

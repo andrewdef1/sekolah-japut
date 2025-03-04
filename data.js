@@ -898,5 +898,47 @@ Titik Lokasi : -2.5316857061884197, 140.70590513175827<br>
 Jumlah murid : 192 orang<br>
 <a href='' target='_blank'><img src='' width='150'></a><br>`
 },
+{
+name: "TK YPPK Kristus Raja Jayapura",
+lat: -2.5222764155882595, 
+lon: 140.71424339337565, 
+type: "TK", 
+siswa: "21 orang",
+alamat: "Jln. Sulawesi No. 15 Dok V Jayapura Utara.",
+gambar: ``,
+description: `
+<br>Jln. Sulawesi No. 15 Dok V Jayapura Utara.<br>
+Titik Lokasi : -2.5222764155882595, 140.71424339337565<br>
+Jumlah murid : 21 orang<br>
+<a href='' target='_blank'><img src='' width='150'></a><br>`
+},
+{
+name: "TK SANDY PUTRA TELKOM (Telkom School)",
+lat: -2.523377068228537, 
+lon: 140.73804694734542, 
+type: "TK", 
+siswa: "30 orang",
+alamat: "Jln. Kayu Batu Base,G Jayapura Utara.",
+gambar: ``,
+description: `
+<br>Jln. Kayu Batu Base,G Jayapura Utara.<br>
+Titik Lokasi : -2.523377068228537, 140.73804694734542<br>
+Jumlah murid : 30 orang<br>
+<a href='' target='_blank'><img src='' width='150'></a><br>`
+},
+{
+name: "TK ISLAM TERPADU KARTIKA ASWAJA",
+lat: -2.537455190104662, 
+lon: 140.71269310501714, 
+type: "TK", 
+siswa: "73 orang",
+alamat: "Jln. Serui II Dok IX Jayapura Utara.",
+gambar: ``,
+description: `
+<br>Jln. Serui II Dok IX Jayapura Utara.<br>
+Titik Lokasi : -2.537455190104662, 140.71269310501714<br>
+Jumlah murid : 73 orang<br>
+<a href='' target='_blank'><img src='' width='150'></a><br>`
+},
 
 ];

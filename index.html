@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peta Sekolah di Jayapura Utara</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map { height: 720px; }
+        body { cursor: pointer; } /* Ganti warna kursor */
+    </style>
+</head>
+<body>
+    <h2>Peta Sekolah di Jayapura Utara</h2>
+    <div id="map"></div>
+    <h3>Jumlah Sekolah:</h3>
+    <ul>
+        <li>SD: <span id="count-sd">0</span></li>
+        <li>PAUD: <span id="count-paud">0</span></li>
+        <li>SMP: <span id="count-smp">0</span></li>
+        <li>SMA: <span id="count-sma">0</span></li>
+        <li>Perguruan Tinggi: <span id="count-pt">0</span></li>
+    </ul>
+    
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        var map = L.map('map').setView([-2.5337, 140.7181], 13);
+
+        L.tileLayer('https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
+            attribution: '© Google Maps'
+        }).addTo(map);
+
+        var schoolIcons = {
+            "PAUD": L.icon({ iconUrl: 'red.png', iconSize: [23, 30] }),
+            "TK": L.icon({ iconUrl: 'red.png', iconSize: [23, 30] }),
+            "SD": L.icon({ iconUrl: 'yellow.png', iconSize: [23, 30] }),
+            "SMP": L.icon({ iconUrl: 'green.png', iconSize: [23, 30] }),
+            "SMA": L.icon({ iconUrl: 'purple.png', iconSize: [23, 30] }),
+            "PT": L.icon({ iconUrl: 'blue.png', iconSize: [23, 30] })
+        };
+
+        var schools = [
+            { name: "Sekolah Minggu Mutiara Kasih", lat: -2.524134709678254, lon: 140.7335552819476, type: "PAUD", description: `Jl. Pasar Inpres RT 002 / RW 004 Kel. Tanjung Ria <br> - Pengelola: TINA AWARAWI <br> - No Hp: - <br> - Jumlah pengasuh: 06 orang <br> - Jumlah murid: 43 orang <br> - Jumlah ruang kelas: 02 ruang kelas` },
+            { name: "SD Hikmah I Yapis Jayapura", 
+                lat: -2.53023, 
+                lon: 140.71751, 
+                type: "SD", 
+                description: `Jln. Dr. Samratulangi Dok V Jayapura Utara.<br>
+                <a href='img/sd hikmah yapis 1.jpeg' target='_blank'><img src='img/sd hikmah yapis 1.jpeg' width='150'></a><br>
+- Kelapa sekolah    :MUCHADIYAH, S.Pd<br>
+- Jumlah guru       :  32 orang<br>
+    - Guru tetap    :  12 orang<br>
+    - Guru honor    :  20 orang<br>
+- Jumlah Murid  : 622 orang<br>
+    - Kls I     : 115 orang<br>
+    - Kls II        : 107 orang<br>
+    - Kls III   : 105 orang<br>
+    - Kls IV        : 110 orang<br>
+    - Kls V     :   93 orang<br>
+    - Kls VI        :   92 orang<br>
+- jumlah ruang kelas    :  18 ruang kelas`
+            },
+            { name: "SMP Negeri 2 Jayapura", lat: -2.5345, lon: 140.7220, type: "SMP", description: "Sekolah menengah pertama dengan program unggulan di bidang sains dan olahraga." },
+            { name: "SMA Negeri 3 Jayapura", lat: -2.5300, lon: 140.7155, type: "SMA", description: "Sekolah menengah atas yang terkenal dengan prestasi akademik dan ekstrakurikuler." }
+        ];
+
+        var countSD = 0, countPAUD = 0, countSMP = 0, countSMA = 0, countPT = 0;
+
+        schools.forEach(school => {
+            L.marker([school.lat, school.lon], { icon: schoolIcons[school.type] })
+                .addTo(map)
+                .bindPopup(`<b>${school.name}</b><br>Jenjang: ${school.type}<br><i>${school.description}</i>`);
+
+            if (school.type === "SD") countSD++;
+            else if (school.type === "PAUD") countPAUD++;
+            else if (school.type === "SMP") countSMP++;
+            else if (school.type === "SMA") countSMA++;
+            else if (school.type === "PT") countPT++;
+        });
+
+        document.getElementById("count-sd").textContent = countSD;
+        document.getElementById("count-paud").textContent = countPAUD;
+        document.getElementById("count-smp").textContent = countSMP;
+        document.getElementById("count-sma").textContent = countSMA;
+        document.getElementById("count-pt").textContent = countPT;
+    </script>
+</body>
+</html>
+
+
